@@ -1,0 +1,16 @@
+body {
+	margin:0;
+	height: 100vh; /* 보여지는 화면을 100프로로 채운다. */
+	background: url("../images/wedding.jpg") no-repeat center;
+	color: #fff;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+hi {
+	font-weight: 100;
+	letter-spacing: 0.23em;
+
+}

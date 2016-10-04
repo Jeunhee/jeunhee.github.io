@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # jeunhee.github.io
 
 yamoo9's Personal Website.

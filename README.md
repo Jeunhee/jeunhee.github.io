@@ -1,6 +1,6 @@
 # jeunhee.github.io
 
-yamooo9's Personal Website.
+yamoo9's Personal Website.
 
 ## TODO
 

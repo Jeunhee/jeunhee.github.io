@@ -1,3 +1,36 @@
 body {
+	/* 가운데정렬*/
+	width: 960px;
+	margin: 0 auto;
+	
+	/*하단 같은 내용을 줄여서 씀
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto; 양쪽똑같이 값을 나눠가져라
+	margin-right: auto;
+	*/
+
+	/* 래딩 간격을 패턴으로 배경이미지로 그림*/
 	background: url("../images/leading_24.png");
+	/*글자모양 글꼴*/
+	font-family: "spoqa-han-sans";
+	/*행간 line height*/
+	line-height: 1.5em; /*x1.5     보통 1.4~1.8까지 씀   1.5는 포토샵에서 정수로 떨어지니까 */
+	/*글자 사이간격 letter spacing*/
+	letter-spacing: -0.04em; /*글자ㅅ폭을 0.04em만큼 좁혀라*/
+}
+
+/*멀티 컬럼 디자인*/
+div{
+	margin-top: 9em;
+	column-count:2; /*2단으로 나눠라*/
+	column-gap:24; /*사이간격을 24만큼 넓혀라*/
+
+}
+
+/*단락 디자인*/
+p{
+	margin-top: 0;
+	margin-bottom: 1.5em;
+	color: #454545;
 }
